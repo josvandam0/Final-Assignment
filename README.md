@@ -19,7 +19,7 @@ This is a project which processes microarray gene expression files and writes a 
  **scipy** 
 
 ## What files to use
-To use this script you will need a CSV file containing microarray expression data. This script processes the data of these microarary expresisons. The gene names have to be in the first row after the second column, the sample names have to be in the first column of each row, the tissue types in the  second columns of each row and the expression data from the 3rd column to the nth column of each row. 
+To use this script you will need a CSV file containing microarray expression data. This script processes the data of these microarary expressions. The gene names have to be in the first row after the second column, the sample names have to be in the first column of each row, the tissue types in the  second columns of each row and the expression data from the 3rd column to the n'th column of each row. 
 
 ## How to use
 The main script uses a parser where the path of the csv file and the desired top n (up- or down)expressed of one tissue vs another can be specified. The expression_data_class is imported in the main function, and reads the data of the file, and puts the necessary data in a dictionary. 
@@ -27,7 +27,7 @@ The main script uses a parser where the path of the csv file and the desired top
 The following arguments need to be filled with the desired commands:
 - **--file-path** *In here the path of the required csv file needs to be provided.*
 
-- **--gene-name** *To check whether the script works and provids the correct expression data, a specific gene name within the csv file needs to be called on in this argument.*
+- **--gene-name** *To check whether the script works and provides the correct expression data, a specific gene name within the csv file needs to be called on in this argument.*
 
 - **--gene** *To visualize the mean expression of a certain gene, this argument needs to be provided with the desired gene name*
 
