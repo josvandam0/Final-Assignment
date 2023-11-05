@@ -10,8 +10,11 @@ This is a project which processes microarray gene expression files and writes a 
 ## Packages
  To use this script you need to have some python libraries installed:
  **argparse**
+ 
  **matplotlib**
+ 
  **math**
+ 
  **scipy** 
 
 ## What files to use
