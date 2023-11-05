@@ -33,7 +33,7 @@ The following arguments need to be filled with the desired commands:
 Examples of output files of down- and upregulated genes in a microarray experiment with normal vs hepatocellular cancer are:
 
 **Downregulated genes**
-![Downreg](https://raw.githubusercontent.com/josvandam0/Final-Assignment/main/top-10-downregulated_genes-normal-vs-HCC.png?token=GHSAT0AAAAAACJ4VS2AHGCZVJHNDFYZTJP4ZKH3TOQ)
+![Downreg](https://github.com/josvandam0/Final-Assignment/assets/131524850/30c65f6d-0ea6-49f5-9b62-de93e6f309f4)
 
 **Upregulated genes**
-![Upreg](https://raw.githubusercontent.com/josvandam0/Final-Assignment/main/top-10-downregulated_genes-normal-vs-HCC.png?token=GHSAT0AAAAAACJ4VS2A5U2ZUFBXM2XB5FEGZKH3T5Q)
+![Upreg](https://github.com/josvandam0/Final-Assignment/assets/131524850/4470c399-9806-45fa-9bfe-cbd09a26f8c3)
