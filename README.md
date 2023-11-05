@@ -8,7 +8,11 @@ This is a project which processes microarray gene expression files and writes a 
 - [Screenshots](#screenshots)
 
 ## Packages
- To use this script you need to have some python libraries installed, namely, argparse, matplotlib, math and scipy. 
+ To use this script you need to have some python libraries installed:
+ **argparse**
+ **matplotlib**
+ **math**
+ **scipy** 
 
 ## What files to use
 To use this script you will need a CSV file containing microarray expression data. This script processes the data of these microarary expresisons. The gene names have to be in the first row after the second column, the sample names have to be in the first column of each row, the tissue types in the  second columns of each row and the expression data from the 3rd column to the nth column of each row. 
