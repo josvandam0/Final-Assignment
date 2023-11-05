@@ -2,7 +2,7 @@
 This is a project which processes microarray gene expression files and writes a barplot in which the top n expressed genes are shown.
 
 ## Table of contents
-- [packages](#packages)
+- [Packages](#packages)
 - [What files to use](#what-files-to-use)
 - [How to use](#how-to-use)
 - [Screenshots](#screenshots)
