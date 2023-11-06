@@ -60,10 +60,10 @@ Example output of f-string formatted gene expression values is:
 Examples of output files of down- and upregulated genes in a microarray experiment with normal vs hepatocellular cancer are:
 
 **Downregulated genes**
-![Downreg](https://github.com/josvandam0/Final-Assignment/assets/131524850/30c65f6d-0ea6-49f5-9b62-de93e6f309f4)
+![Downreg](https://raw.githubusercontent.com/josvandam0/Final-Assignment/main/top-10-downregulated_genes-normal-vs-HCC.png)
 
 **Upregulated genes**
-![Upreg](https://github.com/josvandam0/Final-Assignment/assets/131524850/4470c399-9806-45fa-9bfe-cbd09a26f8c3)
+![Upreg](https://raw.githubusercontent.com/josvandam0/Final-Assignment/main/top-10-upregulated_genes-normal-vs-HCC.png)
 
 ## References
 [1] Feltes, B.C.; Chandelier, E.B.; Grisci, B.I.; Dorn, M. CuMiDa: An Extensively Curated Microarray Database for Benchmarking and Testing of Machine Learning Approaches in Cancer Research. Journal of Computational Biology, 2019.
