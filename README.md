@@ -49,7 +49,7 @@ The following arguments need to be filled with the desired commands:
 ## Screenshots
 Example output of f-string formatted gene expression values is:
 
-PS \Final assignment> python main_script.py --file-path Liver_GSE14520_U133A.csv, --gene-name 209220_at, --gene 209220_at, --exp-val1 normal --exp-val2 HCC, --top-n 10
+PS \Final assignment> python main_script.py ```--file-path Liver_GSE14520_U133A.csv, --gene-name 209220_at, --gene 209220_at, --exp-val1 normal --exp-val2 HCC, --top-n 10```
 The gene name with name: '209220_at' is found and has the following expression values: [10.4940660132875, 10.6636412511969, 11.7427472834902, 11.2649087811095, 9.93381700180943, 10.7557465502368, 11.2494300186965,....]
 The gene name with name: '209220_at' is found and has the following mean expression value: 7.427340320636849
 
