@@ -54,6 +54,7 @@ The gene name with name: '209220_at' is found and has the following mean express
 
 Examples of output files of down- and upregulated genes in a microarray experiment with normal vs hepatocellular cancer are:
 
+
 **Downregulated genes**
 ![Downreg](https://github.com/josvandam0/Final-Assignment/assets/131524850/30c65f6d-0ea6-49f5-9b62-de93e6f309f4)
 
