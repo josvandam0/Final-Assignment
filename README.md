@@ -1,9 +1,11 @@
 # Final assignment
 This is a project which processes microarray gene expression files and writes a barplot in which the top n expressed genes are shown.
+There are 3 classes within this project, that complement each other. 
 
 ## Table of contents
 - [Packages](#packages)
 - [What files to use](#what-files-to-use)
+- [Classes](#classes)
 - [How to use](#how-to-use)
 - [Screenshots](#screenshots)
 
@@ -20,6 +22,10 @@ This is a project which processes microarray gene expression files and writes a 
 
 ## What files to use
 To use this script you will need a CSV file containing microarray expression data. This script processes the data of these microarary expressions. The gene names have to be in the first row after the second column, the sample names have to be in the first column of each row, the tissue types in the  second columns of each row and the expression data from the 3rd column to the n'th column of each row. 
+
+## Classes
+- **GeneExpressionData** This class processes microarray expression csv files and puts all necessary information in the so called '''expression_dict''' (dictionary) and the corresponding gene names are stored in a list. With the get_expression function, the desired gene name needs to be passed through, which is realised via the commandline through parsing. It returns the corresponding gene name with its expression values.
+-  **StatisticalAnalysis** This class processes the obtained expression of the csv file further into mean values and subsequently into mean log2 fold change values. It has a couple of functions which require the gene names in a list and the expression values in a expression_dict
 
 ## How to use
 The main script uses a parser where the path of the csv file and the desired top n (up- or down)expressed of one tissue vs another can be specified. The expression_data_class is imported in the main function, and reads the data of the file, and puts the necessary data in a dictionary. 
