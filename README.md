@@ -24,7 +24,7 @@ There are 3 classes within this project, that complement each other.
 To use this script you will need a CSV file containing microarray expression data. This script processes the data of these microarary expressions. The gene names have to be in the first row after the second column, the sample names have to be in the first column of each row, the tissue types in the  second columns of each row and the expression data from the 3rd column to the n'th column of each row. 
 
 ## Classes
-- ```GeneExpressionData``` This class processes microarray expression csv files and puts all necessary information in the so called ```expression_dict``` (dictionary) and the corresponding gene names are stored in a list. With the ```get_expression``` function, the desired gene name needs to be passed through, which is realised via the commandline through parsing. It returns the corresponding gene name with its expression values.
+- **```GeneExpressionData```** This class processes microarray expression csv files and puts all necessary information in the so called ```expression_dict``` (dictionary) and the corresponding gene names are stored in a list. With the ```get_expression``` function, the desired gene name needs to be passed through, which is realised via the commandline through parsing. It returns the corresponding gene name with its expression values.
 -  StatisticalAnalysis** This class processes the obtained expression of the csv file further into mean values and subsequently into mean log2 fold change values. It has a couple of functions which require the gene names in a list and the expression values in a ```expression_dict```. 
 
 ## How to use
