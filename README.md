@@ -8,6 +8,7 @@ There are 3 classes within this project, that complement each other.
 - [Classes](#classes)
 - [How to use](#how-to-use)
 - [Screenshots](#screenshots)
+- [References](#references)
 
 ## Packages
  To use this script you need to have some python libraries installed:
@@ -21,7 +22,7 @@ There are 3 classes within this project, that complement each other.
  **```scipy```** 
 
 ## What files to use
-To use this script you will need a CSV file containing microarray expression data. This script processes the data of these microarary expressions. The gene names have to be in the first row after the second column, the sample names have to be in the first column of each row, the tissue types in the  second columns of each row and the expression data from the 3rd column to the n'th column of each row. 
+To use this script you will need a CSV file containing microarray expression data. This script processes the data of these microarary expressions. The gene names have to be in the first row after the second column, the sample names have to be in the first column of each row, the tissue types in the  second columns of each row and the expression data from the 3rd column to the n'th column of each row. To create this script the files from the project of Feltes et al.[1] were used.
 
 ## Classes
 - **```GeneExpressionData```** This class processes microarray expression csv files and puts all necessary information in the so called ```expression_dict``` (dictionary) and the corresponding gene names are stored in a list. With the ```get_expression``` function, the desired gene name needs to be passed through, which is realised via the commandline through parsing. It returns the corresponding gene name with its expression values in f-string format.
@@ -63,3 +64,6 @@ Examples of output files of down- and upregulated genes in a microarray experime
 
 **Upregulated genes**
 ![Upreg](https://github.com/josvandam0/Final-Assignment/assets/131524850/4470c399-9806-45fa-9bfe-cbd09a26f8c3)
+
+## References
+[1] Feltes, B.C.; Chandelier, E.B.; Grisci, B.I.; Dorn, M. CuMiDa: An Extensively Curated Microarray Database for Benchmarking and Testing of Machine Learning Approaches in Cancer Research. Journal of Computational Biology, 2019.
